@@ -21,9 +21,11 @@ app.Search = class {
   }
 
   static setVisiblePage(){
-  	// if(window){
+  	if(window.document.querySelector("ul").classList("dropdown:opened")){
 
-  	// }
+  	}else{
+  		
+  	}
   }
 
   clickHandler(event){
